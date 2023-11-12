@@ -23,9 +23,22 @@ Anaconda - Python 3.7
 
 
 ## Program:
-```Python
+```
+Developer name:Pooja A
+Register no:212222240072
+```
+```
+# Read image and convert it to grayscale image:
 
-# Read image and convert it to grayscale image
+import numpy as np
+import matplotlib.pyplot as plt
+import cv2
+image = cv2.imread("carss.jpg",0)
+img = cv2.GaussianBlur(image,(3,3),0)
+plt.axis('off')
+plt.imshow(img)
+plt.show()
+```
 
 
 
